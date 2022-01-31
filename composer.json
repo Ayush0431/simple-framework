@@ -1,0 +1,38 @@
+{
+    "name": "mamadou-aly-sy/simple-framework",
+    "description": "A simple php framework for building web application",
+    "type": "library",
+    "keywords": ["framework", "simple", "php"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/MamadouAlySy/simple-framework/issues",
+        "source": "https://github.com/MamadouAlySy/simple-framework",
+        "wiki": "https://github.com/MamadouAlySy/simple-framework/wiki"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleFramework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimpleFramework\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mamadou Aly Sy",
+            "email": "sy.aly.mamadou@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-iconv": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-curl": "*"
+    }
+}
